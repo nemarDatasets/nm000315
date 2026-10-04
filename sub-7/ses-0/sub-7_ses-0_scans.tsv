@@ -1,0 +1,12 @@
+filename	acq_time
+eeg/sub-7_ses-0_task-imagery_acq-BW120_run-0_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-BW30_run-1_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-BW60_run-2_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-BW90_run-3_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-CV200_run-4_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-CV250_run-5_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-CV300_run-6_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-CV350_run-7_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-NT0_run-8_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-NT24_run-9_eeg.edf	2022-01-01T00:00:00.000000Z
+eeg/sub-7_ses-0_task-imagery_acq-NT48_run-10_eeg.edf	2022-01-01T00:00:00.000000Z

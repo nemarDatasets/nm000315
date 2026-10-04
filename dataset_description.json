@@ -1,0 +1,41 @@
+{
+    "Name": "Shin2022",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC BY 4.0",
+    "Authors": [
+        "Hyonyoung Shin",
+        "Daniel Suma",
+        "Bin He"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.6084/m9.figshare.20383716",
+        "10.3389/fnhum.2022.951591"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "EEG",
+        "sensorimotor rhythm",
+        "brain-computer interface",
+        "closed-loop",
+        "cursor control",
+        "dry electrodes"
+    ],
+    "DatasetDOI": "doi:10.3389/fnhum.2022.951591",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.3389/fnhum.2022.951591",
+            "URL": "https://doi.org/10.6084/m9.figshare.20383716"
+        }
+    ],
+    "PublicationYear": 2022
+}

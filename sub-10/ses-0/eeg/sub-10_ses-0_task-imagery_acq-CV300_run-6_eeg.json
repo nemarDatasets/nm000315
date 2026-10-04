@@ -1,0 +1,36 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "g.tec",
+	"PowerLineFrequency": 60.0,
+	"SamplingFrequency": 250.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 247.996,
+	"RecordingType": "continuous",
+	"EEGReference": "unknown",
+	"EEGGround": "n/a",
+	"EEGPlacementScheme": "10-05 system",
+	"EEGChannelCount": 16,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "g.tec g.Nautilus RESEARCH (16 channel)",
+	"SoftwareVersions": "BCI2000",
+	"CapManufacturer": "g.tec medical engineering GmbH",
+	"CapManufacturersModelName": "g.SAHARA dry electrode system",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"Description": "broadband (online 0.5-30 Hz filter disabled at source)"
+		}
+	},
+	"TaskDescription": "Closed-loop 1D left/right (LR) center-out SMR cursor control. Left- vs right-hand motor imagery moves a cursor toward a left or right target under continuous visual feedback. 24 trials per run (12 left / 12 right), 11 runs per subject sweeping online control parameters (BW, CV, NT); one recording day per subject. Trial duration: 6.0s.",
+	"Instructions": "Imagine left- or right-hand movement to drive the cursor toward the cued left or right target.",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Carnegie Mellon University",
+	"InstitutionAddress": "US",
+	"InstitutionalDepartmentName": "Department of Biomedical Engineering",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 0
+}

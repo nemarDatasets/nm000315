@@ -1,0 +1,111 @@
+_dataset:
+  class: Shin2022
+  code: Shin2022
+  doi: 10.3389/fnhum.2022.951591
+  interval:
+  - 0
+  - 3.0
+  n_subjects: 10
+  paradigm: imagery
+acquisition:
+  cap_manufacturer: g.tec medical engineering GmbH
+  cap_model: g.SAHARA dry electrode system
+  channel_types:
+    eeg: 16
+  electrode_type: wire
+  filters: broadband (online 0.5-30 Hz filter disabled at source)
+  hardware: g.tec g.Nautilus RESEARCH (16 channel)
+  line_freq: 60.0
+  montage: standard_1005
+  reference: unknown
+  sampling_rate: 250.0
+  sensor_type: dry
+  software: BCI2000
+bci_application:
+  applications:
+  - cursor_control
+  environment: laboratory
+  online_feedback: true
+cross_validation:
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_trials: 2640
+  n_trials_per_class:
+    left_hand: 12
+    right_hand: 12
+  trials_context: 10 subjects x 11 runs x 24 trials (12 left / 12 right)
+documentation:
+  associated_paper_doi: 10.3389/fnhum.2022.951591
+  country: US
+  data_url: https://doi.org/10.6084/m9.figshare.20383716
+  doi: 10.3389/fnhum.2022.951591
+  institution: Carnegie Mellon University
+  institution_department: Department of Biomedical Engineering
+  investigators:
+  - Hyonyoung Shin
+  - Daniel Suma
+  - Bin He
+  keywords:
+  - motor imagery
+  - EEG
+  - sensorimotor rhythm
+  - brain-computer interface
+  - closed-loop
+  - cursor control
+  - dry electrodes
+  license: CC BY 4.0
+  publication_year: 2022
+  repository: Figshare
+  senior_author: Bin He
+experiment:
+  class_labels:
+  - right_hand
+  - left_hand
+  events:
+    left_hand: 2
+    right_hand: 1
+  feedback_type: visual
+  instructions: Imagine left- or right-hand movement to drive the cursor toward the cued left or right target.
+  mode: online
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cursor
+  study_design: Closed-loop 1D left/right (LR) center-out SMR cursor control. Left- vs right-hand motor imagery moves a cursor
+    toward a left or right target under continuous visual feedback. 24 trials per run (12 left / 12 right), 11 runs per subject
+    sweeping online control parameters (BW, CV, NT); one recording day per subject.
+  synchronicity: synchronous
+  trial_duration: 6.0
+file_format: BCI2000
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_tasks:
+  - right_hand
+  - left_hand
+participants:
+  health_status: healthy
+  n_subjects: 10
+  species: human
+preprocessing:
+  data_state: continuous
+runs_per_session: 11
+sessions_per_subject: 1
+signal_processing:
+  feature_extraction:
+  - autoregressive_spectrum
+  - alpha_band_power
+  frequency_bands:
+    alpha:
+    - 8.0
+    - 12.0
+  spatial_filters: small surface Laplacian around C3 and C4
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Research
