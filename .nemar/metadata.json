@@ -1,0 +1,86 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Hyonyoung Shin": {
+      "orcid": "0000-0002-4316-5847"
+    },
+    "Daniel Suma": {},
+    "Bin He": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.3389/fnhum.2022.951591",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.20383716",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000315",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000315",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Shin2022",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "189 MB (102 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A closed-loop EEG dataset of one-dimensional left/right motor imagery cursor control recorded from 10 healthy participants using a 16-channel dry-electrode g.tec g.Nautilus system. Each participant completed 11 runs of 24 trials (12 left, 12 right) under continuous visual feedback, with online control parameters varied across runs. The dataset supports research on sensorimotor rhythm-based brain-computer interfaces and closed-loop decoding.",
+  "methods_description": "Participants performed left- or right-hand motor imagery to move a cursor toward a left or right target under continuous visual feedback using BCI2000. EEG was recorded at 250 Hz from 16 dry g.SAHARA electrodes in a single session per subject. Online control used autoregressive spectral alpha-band power with a small surface Laplacian around C3 and C4.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sensorimotor rhythm"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "closed-loop"
+    },
+    {
+      "term": "cursor control"
+    },
+    {
+      "term": "dry electrodes"
+    }
+  ],
+  "source_hash": "db0cc79ea0efd2d7bcac589600d5765a0e36d3c058f9a37370ef59fe410688fa"
+}
