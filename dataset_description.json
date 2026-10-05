@@ -39,6 +39,6 @@
     ],
     "PublicationYear": 2022,
     "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+        "Reviewed and approved by the Institutional Review Board of Carnegie Mellon University. All participants provided written informed consent to participate in the study (Shin, Suma & He 2022, Front. Hum. Neurosci. 16:951591, DOI 10.3389/fnhum.2022.951591)."
     ]
 }

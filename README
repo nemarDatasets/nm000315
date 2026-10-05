@@ -145,3 +145,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Reviewed and approved by the Institutional Review Board of Carnegie Mellon University. All participants provided written informed consent to participate in the study (Shin, Suma & He 2022, Front. Hum. Neurosci. 16:951591, DOI 10.3389/fnhum.2022.951591).
+
+Verbatim from the source:
+
+> The studies involving human participants were reviewed and approved by the Institutional Review Board of Carnegie Mellon University. The patients/participants provided their written informed consent to participate in this study.
+
+Source: cached paper .paper-audit/Shin2022/paper-10_3389_fnhum_2022_951591.txt (Shin, Suma & He 2022, Front. Hum. Neurosci. 16:951591, DOI 10.3389/fnhum.2022.951591).
