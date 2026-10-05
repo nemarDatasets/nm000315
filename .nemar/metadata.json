@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
+  "description": "A closed-loop motor imagery EEG dataset from 10 healthy participants performing 1D left/right center-out cursor control using sensorimotor rhythms. Data were recorded with a 16-channel dry-electrode g.Nautilus system across 11 runs of 24 trials each in a single session per subject, with online control parameters varied across runs. This BIDS re-release was generated via MOABB from the originally published figshare data.",
+  "methods_description": "Participants imagined left- or right-hand movement to move a cursor toward a left or right target under continuous visual feedback. EEG was recorded at 250 Hz from 16 dry electrodes (g.SAHARA, g.tec g.Nautilus RESEARCH) using BCI2000, with 11 runs per subject sweeping online control parameters. Online control used autoregressive spectral alpha-band power with a Laplacian spatial filter around C3 and C4.",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Hyonyoung Shin": {
       "orcid": "0000-0002-4316-5847"
@@ -8,6 +13,29 @@
     "Daniel Suma": {},
     "Bin He": {}
   },
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "sensorimotor rhythm"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "closed-loop"
+    },
+    {
+      "term": "cursor control"
+    },
+    {
+      "term": "dry electrodes"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.3389/fnhum.2022.951591",
@@ -40,14 +68,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Shin2022",
-  "license": "CC BY 4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "189 MB (102 files)"
   ],
@@ -55,32 +80,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "A closed-loop EEG dataset of one-dimensional left/right motor imagery cursor control recorded from 10 healthy participants using a 16-channel dry-electrode g.tec g.Nautilus system. Each participant completed 11 runs of 24 trials (12 left, 12 right) under continuous visual feedback, with online control parameters varied across runs. The dataset supports research on sensorimotor rhythm-based brain-computer interfaces and closed-loop decoding.",
-  "methods_description": "Participants performed left- or right-hand motor imagery to move a cursor toward a left or right target under continuous visual feedback using BCI2000. EEG was recorded at 250 Hz from 16 dry g.SAHARA electrodes in a single session per subject. Online control used autoregressive spectral alpha-band power with a small surface Laplacian around C3 and C4.",
-  "keywords": [
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "sensorimotor rhythm"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "closed-loop"
-    },
-    {
-      "term": "cursor control"
-    },
-    {
-      "term": "dry electrodes"
-    }
-  ],
-  "source_hash": "db0cc79ea0efd2d7bcac589600d5765a0e36d3c058f9a37370ef59fe410688fa"
+  "source_hash": "11df7fc3a37a018e25467a7d01e3682c69317dad4f4d70b00151ffed29e18de4"
 }
