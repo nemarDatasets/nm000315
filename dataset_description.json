@@ -1,5 +1,5 @@
 {
-    "Name": "Shin2022",
+    "Name": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -37,5 +37,8 @@
             "URL": "https://doi.org/10.6084/m9.figshare.20383716"
         }
     ],
-    "PublicationYear": 2022
+    "PublicationYear": 2022,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
