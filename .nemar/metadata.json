@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
-  "description": "A closed-loop motor imagery EEG dataset from 10 healthy participants performing 1D left/right center-out cursor control using sensorimotor rhythms. Data were recorded with a 16-channel dry-electrode g.Nautilus system across 11 runs of 24 trials each in a single session per subject, with online control parameters varied across runs. This BIDS re-release was generated via MOABB from the originally published figshare data.",
-  "methods_description": "Participants imagined left- or right-hand movement to move a cursor toward a left or right target under continuous visual feedback. EEG was recorded at 250 Hz from 16 dry electrodes (g.SAHARA, g.tec g.Nautilus RESEARCH) using BCI2000, with 11 runs per subject sweeping online control parameters. Online control used autoregressive spectral alpha-band power with a Laplacian spatial filter around C3 and C4.",
+  "description": "This dataset contains closed-loop EEG recordings from 10 healthy participants performing 1D left/right motor imagery to control a cursor in a sensorimotor-rhythm brain-computer interface. Signals were recorded with a 16-channel dry-electrode system during one session of 11 runs of 24 trials each, with online control parameters varied across runs. It supports research on motor imagery decoding and closed-loop BCI cursor control.",
+  "methods_description": "EEG was recorded at 250 Hz from 16 dry electrodes (g.tec g.Nautilus RESEARCH with g.SAHARA) using BCI2000. Participants imagined left- or right-hand movement to drive a cursor toward a target under continuous visual feedback. Each subject completed 11 runs of 24 trials (12 left, 12 right) in one recording day, sweeping online control parameters (BW, CV, NT). Online control used autoregressive spectral alpha-band power with a small Laplacian around C3 and C4.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -24,7 +24,10 @@
       "term": "sensorimotor rhythm"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "closed-loop"
@@ -83,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "11df7fc3a37a018e25467a7d01e3682c69317dad4f4d70b00151ffed29e18de4"
+  "source_hash": "bab96be4e948e5ba45946220e575adbc4fe93067c2b785ee536bd1c1d9cebc9d"
 }
