@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
-  "description": "This dataset contains closed-loop EEG recordings from 10 healthy participants performing 1D left/right motor imagery to control a cursor in a sensorimotor-rhythm brain-computer interface. Signals were recorded with a 16-channel dry-electrode system during one session of 11 runs of 24 trials each, with online control parameters varied across runs. It supports research on motor imagery decoding and closed-loop BCI cursor control.",
-  "methods_description": "EEG was recorded at 250 Hz from 16 dry electrodes (g.tec g.Nautilus RESEARCH with g.SAHARA) using BCI2000. Participants imagined left- or right-hand movement to drive a cursor toward a target under continuous visual feedback. Each subject completed 11 runs of 24 trials (12 left, 12 right) in one recording day, sweeping online control parameters (BW, CV, NT). Online control used autoregressive spectral alpha-band power with a small Laplacian around C3 and C4.",
+  "description": "EEG recordings from 10 healthy participants performing closed-loop one-dimensional left/right motor imagery cursor control, acquired with a 16-channel dry-electrode system. Each participant completed 11 runs of 24 trials (12 left, 12 right) while online control parameters were varied, with continuous visual feedback driven by sensorimotor rhythm modulation. The dataset supports research on brain-computer interfaces and motor imagery decoding.",
+  "methods_description": "Data were recorded with a g.tec g.Nautilus RESEARCH 16-channel system with g.SAHARA dry electrodes at 250 Hz, using BCI2000. Participants imagined left- or right-hand movement to move a cursor toward a cued target under visual feedback. Each participant completed one session of 11 runs with 24 trials per run, sweeping online control parameters (BW, CV, NT).",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,19 +15,16 @@
   },
   "keywords": [
     {
-      "term": "motor imagery"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "sensorimotor rhythm"
+      "term": "motor imagery"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "sensorimotor rhythm"
     },
     {
       "term": "closed-loop"
@@ -77,14 +74,16 @@
     "eeg"
   ],
   "sizes": [
-    "189 MB (102 files)"
+    "804 MB (204 files)"
   ],
   "formats": [
+    ".dat",
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "bab96be4e948e5ba45946220e575adbc4fe93067c2b785ee536bd1c1d9cebc9d"
+  "source_hash": "9900a8fe8e722187128ed0a21d857021aeeb38bf38ced94f1315c53dd30d493d"
 }
