@@ -1,44 +1,48 @@
 {
-    "Name": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC BY 4.0",
-    "Authors": [
-        "Hyonyoung Shin",
-        "Daniel Suma",
-        "Bin He"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.6084/m9.figshare.20383716",
-        "10.3389/fnhum.2022.951591"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "EEG",
-        "sensorimotor rhythm",
-        "brain-computer interface",
-        "closed-loop",
-        "cursor control",
-        "dry electrodes"
-    ],
-    "DatasetDOI": "doi:10.3389/fnhum.2022.951591",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.3389/fnhum.2022.951591",
-            "URL": "https://doi.org/10.6084/m9.figshare.20383716"
-        }
-    ],
-    "PublicationYear": 2022,
-    "EthicsApprovals": [
-        "Reviewed and approved by the Institutional Review Board of Carnegie Mellon University. All participants provided written informed consent to participate in the study (Shin, Suma & He 2022, Front. Hum. Neurosci. 16:951591, DOI 10.3389/fnhum.2022.951591)."
-    ]
+  "Name": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Hyonyoung Shin",
+    "Daniel Suma",
+    "Bin He"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.20383716",
+    "10.3389/fnhum.2022.951591"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "EEG",
+    "sensorimotor rhythm",
+    "brain-computer interface",
+    "closed-loop",
+    "cursor control",
+    "dry electrodes"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000315",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.3389/fnhum.2022.951591",
+      "URL": "https://doi.org/10.6084/m9.figshare.20383716"
+    },
+    {
+      "DOI": "doi:10.3389/fnhum.2022.951591"
+    }
+  ],
+  "PublicationYear": 2022,
+  "EthicsApprovals": [
+    "Reviewed and approved by the Institutional Review Board of Carnegie Mellon University. All participants provided written informed consent to participate in the study (Shin, Suma & He 2022, Front. Hum. Neurosci. 16:951591, DOI 10.3389/fnhum.2022.951591)."
+  ],
+  "Version": "1.0.0"
 }
