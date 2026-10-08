@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Shin2022: Closed-loop 1D left/right motor imagery EEG dataset (live recordings)",
-  "description": "EEG recordings from 10 healthy participants performing closed-loop one-dimensional left/right motor imagery cursor control, acquired with a 16-channel dry-electrode system. Each participant completed 11 runs of 24 trials (12 left, 12 right) while online control parameters were varied, with continuous visual feedback driven by sensorimotor rhythm modulation. The dataset supports research on brain-computer interfaces and motor imagery decoding.",
-  "methods_description": "Data were recorded with a g.tec g.Nautilus RESEARCH 16-channel system with g.SAHARA dry electrodes at 250 Hz, using BCI2000. Participants imagined left- or right-hand movement to move a cursor toward a cued target under visual feedback. Each participant completed one session of 11 runs with 24 trials per run, sweeping online control parameters (BW, CV, NT).",
+  "description": "A closed-loop EEG dataset of one-dimensional left/right motor imagery cursor control recorded from 10 healthy participants using a 16-channel dry-electrode system. Participants imagined left- or right-hand movement to drive a cursor toward a target under continuous visual feedback, completing 11 runs of 24 trials each while online control parameters were varied. The data support research on sensorimotor rhythm-based brain-computer interfaces and closed-loop decoding.",
+  "methods_description": "EEG was recorded at 250 Hz from 16 dry electrodes (g.tec g.Nautilus RESEARCH with g.SAHARA) using BCI2000. Each subject completed one session of 11 runs with 24 trials per run (12 left, 12 right). Online control used autoregressive spectrum alpha-band power with a Laplacian spatial filter around C3 and C4, with visual cursor feedback.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,13 +15,17 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
     },
     {
       "term": "sensorimotor rhythm"
